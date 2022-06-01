@@ -4,6 +4,9 @@ print(subway)
 subway = ["A", "B", "C"]
 print(subway)
 
+# list의 전체 갯수
+print(len(subway))
+
 # index : "B"의 위치
 print(subway.index("B"))
 
