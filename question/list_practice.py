@@ -88,6 +88,13 @@ data.sort()
 print(data)
 
 
+# list에 포함되어있는건지 확인
+fruit = ["사과", "포도", "홍시"]
+favorite = input('좋아하는 과일은? ')
+if favorite in fruit :
+    print('정답입니다')
+
+
 
 
 
