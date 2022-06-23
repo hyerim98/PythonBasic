@@ -19,6 +19,7 @@ cabinet = {"A-3" : "AAA", "B-100" : "BBB"}
 print(cabinet["A-3"])
 print(cabinet)
 
+# dictionary 값 추가
 cabinet["c-50"] = "CCC"
 cabinet["A-3"] = "AAAAA"
 print(cabinet)
