@@ -95,6 +95,24 @@ if favorite in fruit :
     print('정답입니다')
 
 
+# 2차원 리스트 생성
+apart = [
+    [101, 102],
+    [201, 202],
+    [301, 302]
+]
+
+for row in apart :
+    for col in row :
+        print(col, '호')
+
+for row in apart[::-1] :
+    for col in row :
+        print(col, '호')
+
+for row in apart[::-1] :
+    for col in row[::-1] :
+        print(col, '호')
 
 
 
